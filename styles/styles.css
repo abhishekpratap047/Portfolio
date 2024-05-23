@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    font-weight: bold;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    display: block;
+    background-color: whitesmoke;
+    color: black;
+    height: 2000px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mcontainer{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 60%;
+    position: fixed;
+    display: none;
+    transition: 0.15s;
+}
+
+.navcontainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    justify-content: center;;
+    align-items: center;
+    padding-bottom: 23rem;
+}
+
+.nav{
+    list-style-type: none;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.navitem{
+    font-size: xx-large;
+    color: white;
+    padding: 0.5rem;
+}
+
+.home{
+    background-image: url(../assets/mountbw.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+
+
+.menucont{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row-reverse;
+    position:fixed;
+    top:0;
+    right:0;
+}
+
+.mobilemenu{
+    
+    width: 3rem;
+    height: 3rem;
+    margin: 10px;
+    transition: 0.2s;
+    background-size: cover;
+    background-color: white(100, 100, 100, 0.5);
+    background-image: url(../assets/icons/menuwhite.png);
+}
+#firstname{
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+#lastname{
+    font-size:3rem;
+    padding-left: 10rem;
+    border-collapse: separate;
+    margin-bottom: 14rem;
+}
+#iam{
+    padding-left: 1rem;
+    font-size: 5rem;
+    margin: 0px;
+    color: rgb(251, 255, 0);
+}
+
+#a{
+    font-size: 3rem;
+    color: rgb(176, 148, 204);
+    margin: 0px;
+}
+
+#dev{
+
+    margin: 0px;
+    color: rgb(255, 122, 122);
+    font-size:3rem;
+    text-align: center;
+    transition: 0.1s;
+    text-transform: uppercase;
+    font-style: italic;
+    /*text-decoration:underline;*/
+    font-weight: bold;
+}
+
+.skills{
+    background-image: url(../assets/cover1.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    padding: 2rem 2rem 2rem 2rem;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+}
+.certificates{
+    background-image: url(../assets/cover1.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    padding: 2rem 2rem 2rem 2rem;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+}
+.projects{
+    background-image: url(../assets/cover1.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    padding: 2rem 2rem 2rem 2rem;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+}
+.contact{
+    background-image: url(../assets/whitetexture.jpg);
+    height: 100vh;
+    padding: 2rem 2rem 2rem 2rem;
+    color: rgb(41, 41, 41);
+    font-size: 3rem;
+}
+
+@media screen and (min-width: 700px) {
+    body{
+        background-color: gray;
+    }    
+    .home{
+        padding: 6rem 0rem 0rem 6rem;
+    }
+    #lastname{
+        margin-bottom: 0px;
+    }
+    #iam{
+        padding-left: 11rem;
+    }
+    #dev{
+        font-size: 7rem;
+    }
+}
