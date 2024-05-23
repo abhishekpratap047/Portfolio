@@ -6,7 +6,12 @@
 
 html {
     scroll-behavior: smooth;
-  } 
+  }
+
+hr{
+    border: 1px solid rgb(255, 230, 7);
+    margin: 0px;
+}
 
 body{
     display: block;
@@ -52,7 +57,7 @@ body{
 }
 
 .home{
-    background-image: url(../assets/mountbw.jpg);
+    background-image: url(../assets/mountain2.jpg);
     background-size: cover;
     background-position: right;
     height: 100vh;
@@ -118,30 +123,30 @@ body{
 }
 
 .skills{
-    background-image: url(../assets/cover1.jpg);
+    background-image: url(../assets/code.jpg);
     background-size: cover;
     background-position: right;
     height: 100vh;
     padding: 2rem 2rem 2rem 2rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 3rem;
 }
 .certificates{
-    background-image: url(../assets/cover1.jpg);
+    background-image: url(../assets/cert.jpg);
     background-size: cover;
     background-position: right;
     height: 100vh;
     padding: 2rem 2rem 2rem 2rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 3rem;
 }
 .projects{
-    background-image: url(../assets/cover1.jpg);
+    background-image: url(../assets/darktexture1.jpg);
     background-size: cover;
     background-position: right;
     height: 100vh;
     padding: 2rem 2rem 2rem 2rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 3rem;
 }
 .contact{

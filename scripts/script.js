@@ -12,7 +12,7 @@ function menu(){
     if(displaymob === 0){
         mcontainer.style.display = "block";
         setTimeout(() => {
-            mcontainer.style.opacity = "0.8";
+            mcontainer.style.opacity = "0.9";
             menubutton.style.backgroundImage = "url(assets/icons/closewhite.png)";
         displaymob = 1;
         }, 150);
