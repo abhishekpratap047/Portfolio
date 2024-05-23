@@ -158,6 +158,8 @@ body{
     background-color: rgb(55, 27, 179);
     width: 22rem;
     height: 14rem;
+    background-position: center;
+    background-size: cover;
 }
 #allcertcont{
     text-align: center;
@@ -193,6 +195,24 @@ body{
     padding: 2rem 2rem 2rem 2rem;
     color: rgb(41, 41, 41);
     font-size: 2rem;
+}
+
+#azure{
+    background-image: url(../assets/Certificates/microsoft.png);
+}
+#rest{
+    background-image: url(../assets/Certificates/restfulapi.png);
+}
+#react{
+    background-image: url(../assets/Certificates/react.png);
+}
+#resp{
+    background-image: url(../assets/Certificates/responsivedesign.png);
+}
+#ml{
+    background-image: url(../assets/Certificates/ml.png);
+}#sql{
+    background-image: url(../assets/Certificates/sqltransactions.png);
 }
 
 
