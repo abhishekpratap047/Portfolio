@@ -6,7 +6,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+  } 
 
 body{
     display: block;
@@ -75,7 +75,7 @@ body{
     
     width: 3rem;
     height: 3rem;
-    margin: 10px;
+    margin: 2rem;
     transition: 0.2s;
     background-size: cover;
     background-color: white(100, 100, 100, 0.5);
