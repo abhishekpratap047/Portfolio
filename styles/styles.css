@@ -257,15 +257,12 @@ body{
     color: black;
 }
 
-.projectgallerycontainer{
-    width: 90%;
-    height: fit-contents;
-}
-
 .galleryrow{
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    width: 100%;
+    justify-content: center;
 }
 
 .gallerycol{
