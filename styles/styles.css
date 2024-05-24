@@ -211,8 +211,8 @@ body{
     height: fit-content;
     display: flex;
     flex-direction: row;
-    font-size: small;
-    width: 400px;
+    font-size: 0.8rem;
+    width: 350px;
     border: 1px solid black;
 }
 
