@@ -233,11 +233,52 @@ body{
     background-image: url(../assets/darktexture1.jpg);
     background-size: cover;
     background-position: right;
-    height: 100vh;
     padding: 2rem 2rem 2rem 2rem;
     color: rgb(255, 255, 255);
     font-size: 2rem;
 }
+
+#viewallprojects{
+    font-size: 1.3rem;
+    color: rgb(235, 235, 172);
+    margin-bottom: 2rem;
+}
+#viewallprojects a{
+    color: rgb(216, 74, 74);
+    background-color: white;
+    padding: 3px;
+    border-radius: 3px;
+    font-style: italic;
+    text-decoration: none;
+    transition: 0.27s;
+}
+#viewallprojects a:hover{
+    background-color: rgb(202, 202, 202);
+    color: black;
+}
+
+.projectgallerycontainer{
+    width: 90%;
+    height: fit-contents;
+}
+
+.galleryrow{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.gallerycol{
+    flex:90%;
+    padding: 0 4px;
+}
+
+.gallerycol img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
 .contact{
     background-image: url(../assets/whitebgman.jpg);
     background-position: bottom;
@@ -396,5 +437,14 @@ body{
         height: 20rem;
         left:20%;
     }
+    .gallerycol{
+        flex:33%;
+    }
 
+}
+
+@media  screen and (max-width:1300px) and (min-width:700px) {
+    .gallerycol{
+        flex:50%;
+    }
 }
