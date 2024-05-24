@@ -28,6 +28,7 @@ body{
     background-color: black;
     opacity: 60%;
     position: fixed;
+    z-index: 2;
     display: none;
     transition: 0.15s;
 }
@@ -40,6 +41,7 @@ body{
     justify-content: center;;
     align-items: center;
     padding-bottom: 23rem;
+    z-index: 2;
 }
 
 .nav{
@@ -47,6 +49,7 @@ body{
     padding: 2rem;
     border: 2px solid yellow;
     margin-top: 15rem;
+    z-index: 2;
 }
 
 .nav a{
@@ -71,7 +74,12 @@ body{
     padding: 2rem 2rem 2rem 2rem;
 }
 
-
+#ap{
+    height: 15rem;
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+}
 
 .menucont{
     width: 100%;
@@ -108,16 +116,18 @@ body{
     font-size: 5rem;
     margin: 0px;
     color: rgb(251, 255, 0);
+    z-index: 1;
 }
 
 #a{
     font-size: 3rem;
     color: rgb(176, 148, 204);
     margin: 0px;
+    z-index: 1;
 }
 
 #dev{
-
+    z-index: 1;
     margin: 0px;
     color: rgb(255, 122, 122);
     font-size:2.5rem;
@@ -380,6 +390,11 @@ body{
 
     .contact{
         background-position: 0% 80%;
+    }
+
+    #ap{
+        height: 20rem;
+        left:20%;
     }
 
 }
