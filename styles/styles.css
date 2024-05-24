@@ -216,6 +216,15 @@ body{
     border: 1px solid black;
 }
 
+.contactcontainer:hover{
+    background-color: rgb(194, 194, 194);
+}
+
+.contactcontainer a{
+    color: black;
+    text-decoration: none;
+}
+
 .contactmebox{
     margin-top: 5rem;
     width: 100%;
@@ -224,6 +233,11 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.contacttext{
+    display: flex;
+    align-items: center;
 }
 
 .contacticon{
@@ -302,6 +316,20 @@ body{
     }
     #dev{
         font-size: 7rem;
+    }
+
+    .contactcontainer{
+        width: 700px;
+        padding: 2rem;
+    }
+
+    .contacticon{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .contacttext{
+        font-size: medium;
     }
 
 }
