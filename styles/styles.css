@@ -132,11 +132,38 @@ body{
     background-image: url(../assets/mountbw.jpg);
     background-size: cover;
     background-position: right;
-    height: 100vh;
+    min-height: 100vh;
     padding: 2rem 2rem 2rem 2rem;
     color: rgb(255, 255, 255);
     font-size: 2rem;
 }
+
+.skillscontainer{
+    margin: 5rem 5rem 5rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    justify-items: left;
+
+}
+
+.skillitem{
+    font-size: 1rem;
+    height: 3rem;
+    background-color: white;
+    border: 2px solid white;
+    padding: 1rem;
+    color: rgb(67, 67, 218);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 4px 2px rgba(100, 100, 100, 0.8);
+}
+
+
+
 .certificates{
     background-image: url(../assets/cert.jpg);
     background-size: cover;
@@ -151,19 +178,22 @@ body{
     display: grid;
     margin: 2rem;
     padding: 5% 10% 0% 10%;
-    grid-template-columns: repeat(auto-fit , minmax(22rem, 1fr));
-    grid-template-rows: repeat(2, 14rem);
-    grid-auto-rows: 14rem;
+    grid-template-columns: repeat(auto-fit , minmax(24rem, 1fr));
+    grid-template-rows: repeat(2, 16rem);
+    grid-auto-rows: 16rem;
     justify-content: center;
+    justify-items: center;
     align-content: center;
     gap: 1rem;
 }
 
+
+
 .cert{
     font-size: large;
     background-color: rgb(55, 27, 179);
-    width: 22rem;
-    height: 14rem;
+    width: 24rem;
+    height: 16rem;
     background-position: center;
     background-size: cover;
 }
@@ -174,16 +204,18 @@ body{
     justify-content: center;
 }
 #allcert{
-    background-color: rgb(1, 87, 145);
+    background-color: whitesmoke(1, 87, 145);
     width: fit-content;
     padding: 1rem;
+    border-radius: 8px;
+    border: 2px solid white;
 }
 #allcert a{
     text-decoration: none;
     color: white;
 }
 #allcert:hover{
-    background-color: rgb(0, 64, 107);
+    background-color: rgba(255,255,255,0.4);
 }
 
 .projects{
@@ -196,7 +228,8 @@ body{
     font-size: 2rem;
 }
 .contact{
-    background-image: url(../assets/whitetexture.jpg);
+    /* background-image: url(../assets/whitetexture.jpg); */
+    background-color: whitesmoke;
     background-size: cover;
     height: 100vh;
     padding: 2rem 2rem 2rem 2rem;
@@ -213,7 +246,7 @@ body{
     flex-direction: row;
     font-size: 0.8rem;
     width: 350px;
-    border: 1px solid black;
+    border: 3px solid black;
 }
 
 .contactcontainer:hover{
@@ -330,6 +363,14 @@ body{
 
     .contacttext{
         font-size: medium;
+    }
+
+    #allcert{
+        margin-top: 3rem;
+    }
+
+    .skillscontainer{
+        margin-top: 15rem;
     }
 
 }
