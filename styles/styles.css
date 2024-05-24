@@ -44,6 +44,8 @@ body{
 
 .nav{
     list-style-type: none;
+    padding: 2rem;
+    border: 2px solid yellow;
 }
 
 .nav a{
@@ -54,6 +56,10 @@ body{
     font-size: xx-large;
     color: white;
     padding: 0.5rem;
+}
+
+.navitem:hover{
+    color: rgb(179, 179, 179);
 }
 
 .home{
@@ -191,11 +197,65 @@ body{
 }
 .contact{
     background-image: url(../assets/whitetexture.jpg);
+    background-size: cover;
     height: 100vh;
     padding: 2rem 2rem 2rem 2rem;
     color: rgb(41, 41, 41);
     font-size: 2rem;
+    display: block;
 }
+
+.contactcontainer{
+    padding: 2rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    width: 600px;
+    border: 3px solid black;
+    border-collapse:collapse;
+    margin: 0px;
+    margin: 3px;
+}
+
+.contactmebox{
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contacticon{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1.5rem;
+}
+
+#phone{
+    background-image: url(../assets/icons/phoneblack.png);
+    background-size: contain;
+}
+#email{
+    background-image: url(../assets/icons/mailblack.png);
+    background-size: contain;
+}
+#linkedin{
+    background-image: url(../assets/icons/linkblack.png);
+    background-size: contain;
+}
+#git{
+    background-image: url(../assets/icons/linkblack.png);
+    background-size: contain;
+}
+#leet{
+    background-image: url(../assets/icons/linkblack.png);
+    background-size: contain;
+}
+
+
 
 #azure{
     background-image: url(../assets/Certificates/microsoft.png);
