@@ -206,12 +206,14 @@ body{
 }
 
 .contactcontainer{
-    padding: 2rem;
+    padding: 1rem;
+    margin: 2px;
     height: fit-content;
     display: flex;
     flex-direction: row;
-    font-size: medium;
-    width: 300;
+    font-size: small;
+    width: 400px;
+    border: 1px solid black;
 }
 
 .contactmebox{
@@ -225,8 +227,8 @@ body{
 }
 
 .contacticon{
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     margin-right: 1.5rem;
 }
 
