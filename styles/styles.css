@@ -210,12 +210,8 @@ body{
     height: fit-content;
     display: flex;
     flex-direction: row;
-    font-size: x-large;
-    width: 600px;
-    border: 3px solid black;
-    border-collapse:collapse;
-    margin: 0px;
-    margin: 3px;
+    font-size: medium;
+    width: 300;
 }
 
 .contactmebox{
