@@ -46,6 +46,7 @@ body{
     list-style-type: none;
     padding: 2rem;
     border: 2px solid yellow;
+    margin-top: 4rem;
 }
 
 .nav a{
@@ -90,7 +91,6 @@ body{
     transition: 0.2s;
     background-size: cover;
     background-color: white(100, 100, 100, 0.5);
-    border: 3px solid yellow;
     background-image: url(../assets/icons/menuwhite.png);
 }
 #firstname{
